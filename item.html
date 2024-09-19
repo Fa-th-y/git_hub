@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iteem.css">
+    <title>XO_Game</title>
+
+</head>
+
+<body>
+    <div class="continar">
+        <div class="parent">
+            <p class="text"></p>
+
+            <a href="#" id="btn" onclick="play(this.id)">
+                <span>Play</span>
+                <span>Play Now</span>
+            </a>
+
+        </div>
+
+        <div id="start">
+            <button id="cns" onclick="cns(this.id)">X</button>
+
+            <div class="NamePlayer">
+                <input class="inp" id="inp1" onfocus="Fuc(this.id)" type="text" required>
+                <span class="spn">Plyer X</span>
+            </div>
+            <div class="NamePlayer">
+                <input class="inp" id="inp2" onfocus="Fuc(this.id)" type="text" required>
+                <span class="spn">Plyer O</span>
+            </div>
+
+            <p class="Massege"></p>
+
+            <button id="ply" onclick="Go(this.id)">
+                <span class="one">Go</span>
+                <span class="two">Go Now</span>
+                </button>
+
+        </div>
+
+
+        <div class="Game">
+            <div class="head"></div>
+            <div class="box" id="item1" onclick="Game(this.id)"></div>
+            <div class="box" id="item2" onclick="Game(this.id)"></div>
+            <div class="box" id="item3" onclick="Game(this.id)"></div>
+            <div class="box" id="item4" onclick="Game(this.id)"></div>
+            <div class="box" id="item5" onclick="Game(this.id)"></div>
+            <div class="box" id="item6" onclick="Game(this.id)"></div>
+            <div class="box" id="item7" onclick="Game(this.id)"></div>
+            <div class="box" id="item8" onclick="Game(this.id)"></div>
+            <div class="box" id="item9" onclick="Game(this.id)"></div>
+
+        </div>
+    </div>
+
+
+    <script src="item.js"></script>
+</body>
+
+</html>
